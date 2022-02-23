@@ -1,0 +1,66 @@
+body {
+  background-color: #000;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.wrap {
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px 30px 80px 30px;
+  width: 300px;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 0 0 20px #03e9f4;
+  text-align: center;
+  font-size: 40px;
+}
+
+input {
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid #000;
+  width: 190px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+input:focus {
+  border: 1px solid #03e9f4;
+  box-shadow : 
+		0 0 5px #03e9f4,
+		0 0 25px #03e9f4,
+		0 0 50px #03e9f4,
+		0 0 200px #03e9f4;
+	-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+button {
+  padding: 6px 17px;
+  color: #03e9f4;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #03e9f4;
+  transition: .3s;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+button:hover {
+	background: #03e9f4;
+	color : #050801;
+	box-shadow : 
+		0 0 5px #03e9f4,
+		0 0 25px #03e9f4,
+		0 0 50px #03e9f4,
+		0 0 200px #03e9f4;
+	-webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+.result {
+  margin-top: 40px;
+  padding-top: 20px;
+  color: #ddd;
+  border-top: 1px solid rgb(46, 46, 46);
+}
+
+
